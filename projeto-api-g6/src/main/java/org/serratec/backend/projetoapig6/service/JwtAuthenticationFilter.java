@@ -1,9 +1,10 @@
 package org.serratec.backend.projetoapig6.service;
 
 import java.io.IOException;
+
 import java.util.ArrayList;
 
-import org.serratec.backend.servicedto.dto.LoginDTO;
+import org.serratec.backend.projetoapig6.dto.LoginDTO;
 import org.springframework.http.HttpHeaders;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

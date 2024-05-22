@@ -2,12 +2,9 @@ package org.serratec.backend.projetoapig6.config;
 
 import java.util.Arrays;
 
-
-
-
-import org.serratec.backend.servicedto.security.JwtAuthenticationFilter;
-import org.serratec.backend.servicedto.security.JwtAuthorizationFilter;
-import org.serratec.backend.servicedto.security.JwtUtil;
+import org.serratec.backend.projetoapig6.security.JwtAuthenticationFilter;
+import org.serratec.backend.projetoapig6.security.JwtAuthorizationFilter;
+import org.serratec.backend.projetoapig6.security.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
