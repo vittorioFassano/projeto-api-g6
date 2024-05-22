@@ -3,13 +3,12 @@ package org.serratec.backend.projetoapig6.controller;
 import java.net.URI;
 import java.util.List;
 
-import org.serratec.backend.servicedto.dto.UsuarioDTO;
-import org.serratec.backend.servicedto.dto.UsuarioInserirDTO;
-import org.serratec.backend.servicedto.model.Usuario;
-import org.serratec.backend.servicedto.service.UsuarioService;
+import org.serratec.backend.projetoapig6.dto.UsuarioDTO;
+import org.serratec.backend.projetoapig6.dto.UsuarioInserirDTO;
+import org.serratec.backend.projetoapig6.model.Usuario;
+import org.serratec.backend.projetoapig6.service.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.GetMapping;

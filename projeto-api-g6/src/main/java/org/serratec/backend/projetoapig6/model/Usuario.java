@@ -135,6 +135,12 @@ public class Usuario implements UserDetails, Serializable {
 	public String toString() {
 		return "* Código: " + id + "\n* Nome: " + nome + "\n* Email: " + email + "\n* Perfis: ";
 
+	}
+
+	@Override
+	public Collection<? extends GrantedAuthority> getAuthorities() {
+		// TODO Auto-generated method stub
+		return null;
 	};
 
 }
